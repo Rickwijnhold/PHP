@@ -8,22 +8,29 @@
 
 if ($_POST['inlognaam'] == "") {
     echo "Je moet nog een naam invullen!";
-    echo "<br><a href=\"formulier.html\">Terug naar het formulier</a>";
+    echo "<a href=\"formulier.html\">Terug naar het formulier</a><br>";
 }
 
 if ($_POST['adres'] == "") {
     echo "Je moet nog een adres invullen!";
-    echo "<br><a href=\"formulier.html\">Terug naar het formulier</a>";
+    echo "<a href=\"formulier.html\">Terug naar het formulier</a><br>";
 }
 
-if ($_POST['email'] == "") {
-    echo "Je moet nog een email invullen!";
-    echo "<br><a href=\"formulier.html\">Terug naar het formulier</a>";
+if ($_POST['email'] == "piet@worldonline.nl") {
+    echo "Welkom";
+}
+    else {
+        echo "Je moet nog een email invullen!";
+        echo "<a href=\"formulier.html\">Terug naar het formulier</a><br>";
+        echo "Geen toegang";
 }
 
-if ($_POST['wachtwoord'] == "") {
-    echo "Je moet nog een wachtwoord invullen!";
-    echo "<br><a href=\"formulier.html\">Terug naar het formulier</a>";
+if ($_POST['wachtwoord'] == "doetje123") {
+    }
+   else {
+       echo "Je moet nog een wachtwoord invullen!";
+       echo "<a href=\"formulier.html\">Terug naar het formulier</a><br>";
+
 }
 
 //$_POST['adres'];
