@@ -13,7 +13,7 @@ for ($i = 0; $i <= 60; $i++) {
     for ($j = 0; $j<=$i; $j++) {
         echo "*";
     }
-    echo "*<br>";
+    echo "<br>";
 }
 ?>
 </body>
